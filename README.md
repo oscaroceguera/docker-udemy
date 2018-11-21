@@ -151,3 +151,13 @@ $ docker run <container id> npm run test
 # fullscreen experence
 $ docker run -it <container id> npm run test
 ```
+
+## NGINX
+
+```shell
+# build
+$ docker build .
+
+# Start nginx
+$ docker run -p 8080:80 <container id>
+```
